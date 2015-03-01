@@ -1,0 +1,26 @@
+#go keywords
+break,default,func,interface,select
+case,defer,go,map,struct
+chan,else,goto,package,switch
+const,fallthrough,if,range,type
+continue,for,import,return,var
+
+#treat underscore as separate word
+_
+
+#randomly collected words while testing with runtime pkg
+print,close,closed,open,call,addr,frame
+goroutine
+hdr,header,call,name,has,hash,string,strings,signal,ok,fail,rune,to,char,int,ticks,per,second,start,end,close,panic,more,less,stack,enter
+race
+read,write,send,recv,receive,throw,return,enter,leave,profile,alloc,sleep,net,poll,mem,equal,set,cpu,lock,unlock,note,clear,async,sem,release,init
+iface,eface,aquire,value,data,sym,tab,new,proc = process,uint,stop,the,world,find,null,force,go,print,gc,helper,mon,sys
+std,slice,arg,get,eq,atomic,cgo,prof,tick,malloc,calloc,cmalloc
+size,up,sweep,done,nano,persistent,park,sort,key,stat,stats,dump,copy,append,len,cap,create,created,by,other,others,add,time,timer,jump
+atomic,store,trace,top,sift,callers,delta
+words,reset,unread,bytes,asm,dequeue,enqueue,flush,log,point,runtime,printf,vprintf,byte,float,complex,bad,status,on,ram,min,max,core,yield
+reader,writer,runes,good,memclr,memcpy,caller,callers,ready,next,defers,address,library timer
+
+#; for testing
+rename,caser,gocaser,
+#load suggestion

@@ -15,6 +15,8 @@ usage: gocase -p pkg -d dir wordsfiles..
 	it requires either -p  or -d for package or dir name.
 	atleast a single word file should be provided.
 
+	suggestions are printed on stdout.
+	gocase comments lines for names, for which no suggestion was offered.
 	gocase delete dash('-') character. see examples below.
 
 words file:
